@@ -1,7 +1,7 @@
 class RegistrationsController < Devise::RegistrationsController
   protected
 
-  def initialize
+  def show
   @email = email
   end
 
