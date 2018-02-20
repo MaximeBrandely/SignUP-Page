@@ -19,6 +19,6 @@ end
 
  root 'home#index' 
 
-@request.env["devise.mapping"] = Devise.mappings[:user]
+#@request.env["devise.mapping"] = Devise.mappings[:user]
 
 end
