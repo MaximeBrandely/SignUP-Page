@@ -2,7 +2,7 @@ class RegistrationsController < Devise::RegistrationsController
   protected
 
   def show
-  @email = email
+  email = @user.email
   end
 
   def after_sign_up_path_for(resource)

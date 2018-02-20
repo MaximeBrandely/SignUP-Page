@@ -1,1 +1,12 @@
-Merci de t'être inscrit·e, <%= @user.try(email) %>
+
+ <% if user_signed_up? %>
+
+
+<br>Merci de t'être inscrit·e, </br>
+
+<% else %>
+
+   authenticate_user! ##this redirects user to the login screen
+                      ##and tells them they need to sign in to proceed.
+
+   <% end %>

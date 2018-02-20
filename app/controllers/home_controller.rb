@@ -6,5 +6,6 @@ class HomeController < ApplicationController
 
 @user = User.all
 
+
   end
 end
