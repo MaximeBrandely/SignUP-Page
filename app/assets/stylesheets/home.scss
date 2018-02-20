@@ -1,0 +1,76 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+body {
+display: flex;
+justify-content: center;
+
+
+}
+
+.background-image {
+background-image: url('http://static.simpledesktops.com/uploads/desktops/2016/12/05/Untitled-1-03-01.png');
+background-attachment: fixed;
+}
+
+
+.container {
+display: flex;
+background-color:  #F0F8FF;
+margin-top: 10rem;
+width: 50rem;
+height: 25rem;
+border-radius: 0.6rem;
+}
+
+
+.container > div:first-child {
+	background-color: #5D98E6;
+  width: 55%;
+}
+
+.uniform {
+  color: white;
+  border-radius: 0.6rem 0rem 0rem 0.6rem;
+  padding: 40px;
+}
+
+.container form input[type=submit] {
+  	background-color: #5D98E6;
+    border-radius: 0.3rem;
+		color: white;
+		height: 40px;
+		width: 250px;
+		margin-top: 10px;
+  }
+
+.login {
+align-self: flex-end;
+background-color: #A9ACBD;
+height: 52px;
+  width: 270px;
+  color: white;
+  margin-top: 85px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.signup {
+  padding: 20px;
+	margin-top: 25px;
+}
+
+.ul {
+    list-style-type: none;
+	}
+
+.home {
+	background-color: #7CC5FF;
+	border-radius: 1.2rem;
+	padding: 20px;
+	width: 23rem;
+	margin-top: 15rem;
+}
